@@ -1,0 +1,55 @@
+# ──────────────────────────────────────
+# CCTaskScoring .gitignore
+# ──────────────────────────────────────
+
+# ── 环境与敏感文件 ──
+.env
+.env.local
+.env.*.local
+*.pfx
+*.key
+
+# ── 运行时数据 ──
+data/
+logs/
+
+# ── .NET ──
+bin/
+obj/
+*.user
+*.suo
+*.csproj.user
+*.vs/
+.vs/
+*.DotSettings.user
+TestResults/
+coverage/
+
+# ── Node.js / 前端 ──
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Neo4j ──
+neo4j/data/
+neo4j/logs/
+neo4j/plugins/
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Docker ──
+docker-compose.override.yml
+/docs
+docs
+/ClaudeCode 任务评分与学习系统.md
+.claude

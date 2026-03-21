@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat:*)",
+      "mcp__scoring__get_analytics_summary",
+      "mcp__scoring__list_tasks",
+      "mcp__scoring__get_lessons",
+      "mcp__scoring__get_error_patterns",
+      "mcp__scoring__get_task",
+      "mcp__scoring__submit_task",
+      "mcp__scoring__review_task"
+    ]
+  }
+}

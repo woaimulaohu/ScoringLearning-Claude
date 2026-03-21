@@ -1,0 +1,44 @@
+# ──────────────────────────────────────
+# CCTaskScoring Docker 构建排除
+# ──────────────────────────────────────
+
+# 测试项目（不参与容器构建）
+CCTaskScoring.Tests/
+
+# .NET 构建输出
+**/bin/
+**/obj/
+**/TestResults/
+
+# 前端源码（wwwroot 已包含构建产物）
+frontend/node_modules/
+frontend/.vite/
+
+# 运行时数据
+data/
+logs/
+neo4j/data/
+neo4j/logs/
+
+# IDE 和环境
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 敏感文件
+.env
+.env.local
+.env.*.local
+*.pfx
+*.key
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore

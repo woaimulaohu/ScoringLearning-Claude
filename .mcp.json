@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "scoring": {
+      "type": "http",
+      "url": "http://localhost:5176/mcp"
+    },
+    "neo4j": {
+      "uri": "bolt://localhost:7687",
+      "username": "neo4j",
+      "password": "your_password"
+    }
+  }
+}
