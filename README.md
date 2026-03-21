@@ -243,3 +243,11 @@ dotnet test
 # Docker 实时日志
 docker compose logs -f scoreservice
 ```
+## 🎉 效果展示
+
+<p align="center">
+  <img src="frontend/public/演示1.png" width="80%" alt="">
+  <img src="frontend/public/演示2.png" width="80%" alt="">
+  <img src="frontend/public/演示3.png" width="80%" alt="">
+  <img src="frontend/public/演示4.png" width="80%" alt="">
+</p>
