@@ -1,3 +1,6 @@
+# 语言切换 | Language Switch
+[中文](./README-zh.md) | [English](./README.md)
+
 # 🤖 CCTaskScoring & LearningSystem
 
 ClaudeCode 任务评分与学习系统。将评分能力封装为 **MCP 服务器**，ClaudeCode 通过标准 MCP 协议提交任务、查询评分、获取历史教训，同时提供 Vue 3 人工审查界面。
