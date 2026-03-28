@@ -254,4 +254,5 @@ docker compose logs -f scoreservice
   <img src="frontend/public/演示2.png" width="80%" alt="Demo 2">
   <img src="frontend/public/演示3.png" width="80%" alt="Demo 3">
   <img src="frontend/public/演示4.png" width="80%" alt="Demo 4">
+    <img src="frontend/public/演示4.png" width="80%" alt="Demo 5">
 </p>
